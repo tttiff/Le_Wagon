@@ -1,0 +1,97 @@
+
+/* Google fonts */
+<link href="https://fonts.googleapis.com/css?family=Amaranth|Didact+Gothic" rel="stylesheet">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Didact+Gothic');
+</style>
+/*
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Amaranth', sans-serif; 
+*/
+
+/*components designs*/
+
+@import url("avatar.css");
+
+
+
+/* fonts and colours only */
+
+body {
+	color: #1C0F13;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+p {
+	text-align: center;
+	color: #1C0F13;
+	font-family: 'Amaranth', sans-serif; 
+}
+
+h1 {
+	
+	font-family: 'Amaranth', sans-serif; 
+	font-size: 50px;
+	color: #1C0F13;
+}
+
+h2{
+	
+	font-size: 18;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #FE5F55;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #F7BFB4;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+
+
+/* Custom design "https://unsplash.it/1000/600"*/
+
+#banner{
+	text-align: center;
+  	background-image: url("me modelling/image6.jpg");
+  	background-size: cover;
+  	padding: 215px;
+  	
+}
+
+#banner h1 {
+	color: white;
+  	font-size: 40px;
+}
+
+#banner p {
+	color: white;
+  	opacity: 0.8;
+  	font-size: 30px;
+  	font-weight: lighter;
+}
+
+#footer{
+  text-align: center;
+  padding: 30px;
+  background: #FE5F55;
+  color: lightgrey;
+  }
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+
+
